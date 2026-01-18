@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 from factor_analyzer import FactorAnalyzer
 
+np.set_printoptions(precision=3, suppress=True, linewidth=200)
+
 def runFactorAnalysis():
     # Создаем пример данных (6 факторов по 30 наблюдений)
     data = {
